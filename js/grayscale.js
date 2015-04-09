@@ -199,21 +199,6 @@ if(hash = 'pageB'){
     document.getElementById('tagLine').innerHTML = 'content for the page displayed when the hash is pageB';
 }
 
-var downloadLink = document.getElementById('mainClick');
-addListener(downloadLink, 'click', function() {
+$('#mainClick').on('click', function() {
     ga('send', 'event', 'mainClick', 'click', 'nav-buttons');
 });
-
-/**
- * Utility to wrap the different behaviors between W3C-compliant browsers
- * and IE when adding event handlers.
- *
- * @param {Object} element Object on which to attach the event listener.
- * @param {string} type A string representing the event type to listen for
- *     (e.g. load, click, etc.).
- * @param {function()} callback The function that receives the notification.
- */
-function addListener(element, type, callback) {
-    if (element.addEventListener) element.addEventListener(type, callback);
-    else if (element.attachEvent) element.attachEvent('on' + type, callback);
-}
