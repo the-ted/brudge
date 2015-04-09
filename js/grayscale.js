@@ -196,7 +196,23 @@ if(hash.substring(0,1) == '#'){
 }
 
 if(hash = 'pageA'){
-    document.getElementById('tagLine').innerHTML = 'content for the page displayed when the hash is pageA';
+    document.getElementById('tagLine').innerHTML = 'pageA';
+    document.getElementById('tagline').innerHTML = 'pageA';
+    document.getElementById('aboutPara1').innerHTML = 'pageA';
+    document.getElementById('aboutPara2').innerHTML = 'pageA';
+    document.getElementById('morePara').innerHTML = 'pageA';
+    document.getElementById('examplePara1').innerHTML = 'pageA';
+    document.getElementById('examplePara2').innerHTML = 'pageA';
+    document.getElementById('examplePara3').innerHTML = 'pageA';
+    document.getElementById('examplePara4').innerHTML = 'pageA';
+    document.getElementById('examplePara5').innerHTML = 'pageA';
+    document.getElementById('bridgeItem1').innerHTML = 'pageA';
+    document.getElementById('bridgeItem2').innerHTML = 'pageA';
+    document.getElementById('bridgeItem3').innerHTML = 'pageA';
+    document.getElementById('bridgeItem4').innerHTML = 'pageA';
+    document.getElementById('bridgeItem5').innerHTML = 'pageA';
+    document.getElementById('bridgeItem6').innerHTML = 'pageA';
+    document.getElementById('bridgeItem7').innerHTML = 'pageA';
 }
 
 if(hash = 'pageB'){
@@ -206,3 +222,38 @@ if(hash = 'pageB'){
 $('#mainClick').on('click', function() {
     ga('send', 'event', 'mainClick', 'click', 'nav-buttons');
 });
+
+
+$('#aboutClick').on('click', function() {
+    ga('send', 'event', 'aboutClick', 'click', 'nav-buttons');
+});
+
+$('#aboutClick').on('click', function() {
+    ga('send', 'event', 'moreClick', 'click', 'nav-buttons');
+});
+
+
+$('#exampleClick').on('click', function() {
+    ga('send', 'event', 'moreClick', 'click', 'nav-buttons');
+});
+
+
+$('#Love').on('click', function() {
+    ga('send', 'event', 'Love', 'click', 'nav-buttons');
+});
+
+
+$('#Hate').on('click', function() {
+    ga('send', 'event', 'Love', 'click', 'nav-buttons');
+});
+
+
+$('#twitter').on('click', function() {
+    ga('send', 'event', 'twitter', 'click', 'nav-buttons');
+});
+
+
+$('#facebook').on('click', function() {
+    ga('send', 'event', 'facebook', 'click', 'nav-buttons');
+});
+
