@@ -256,3 +256,10 @@ $('#facebook').on('click', function() {
     ga('send', 'event', 'facebook', 'click', 'nav-buttons');
 });
 
+function copyToClipboard() {
+    window.prompt("Copy to clipboard: Ctrl+C, Enter", "HELLO THERE");
+}
+
+function replaceLove(){
+    document.getElementById('loveHate').innerHTML = "<img src='http://i.imgur.com/Si6ZHrQ.jpg'>";    
+}
