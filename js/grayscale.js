@@ -242,6 +242,9 @@ $('#exampleClick').on('click', function() {
     ga('send', 'event', 'moreClick', 'click', 'nav-buttons');
 });
 
+$('#copyToClipboard').on('click', function() {
+    ga('send', 'event', 'copyToClipboard', 'click', 'nav-buttons');
+});
 
 $('#Love').on('click', function() {
     ga('send', 'event', 'Love', 'click', 'nav-buttons');
@@ -249,7 +252,7 @@ $('#Love').on('click', function() {
 
 
 $('#Hate').on('click', function() {
-    ga('send', 'event', 'Love', 'click', 'nav-buttons');
+    ga('send', 'event', 'Hate', 'click', 'nav-buttons');
 });
 
 
