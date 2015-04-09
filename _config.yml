@@ -4,7 +4,7 @@ email: me@brudge.com
 url: https://brudge.com
 description: "Learn to play contract bridge, the card game, with this free app.
 "
-baseurl: "/brudge"
+baseurl: "/"
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
