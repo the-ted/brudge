@@ -263,3 +263,7 @@ function copyToClipboard() {
 function replaceLove(){
     document.getElementById('loveHate').innerHTML = "<img src='http://i.imgur.com/Si6ZHrQ.jpg'>";    
 }
+
+function replaceHate(){
+    document.getElementById('loveHate').innerHTML = "<img src='http://i.imgur.com/Si6ZHrQ.jpg'>";    
+}
