@@ -205,8 +205,7 @@ if(hash == 'pageA'){
     document.getElementById('examplePara1').innerHTML = 'Today, while I was drinking some earl grey tea and eating werther\'s originals, I was thinking it might be fun to learn how to play contract bridge (the card game).';
     document.getElementById('examplePara2').innerHTML = 'So, I rolled up the sleeves of my cardigan, put in my dentures, and logged on to my dusty Windows 95 computer. Somebody is making this app to teach bridge to total noobs:';
     document.getElementById('examplePara3').innerHTML = 'Bridge is a four-person game ideal for lazy Sundays. If I get three other people to RSVP to my bridge game, I get a free download of the app when it drops (this works for you, too).';
-    document.getElementById('examplePara4').innerHTML = 'To RSVP, forward or reply to this email and CC me@brudge.com
-';
+    document.getElementById('examplePara4').innerHTML = 'To RSVP, forward or reply to this email and CC me@brudge.com';
     document.getElementById('examplePara5').innerHTML = 'Cheerio';
 }
 
