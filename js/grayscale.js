@@ -198,7 +198,6 @@ if(hash.substring(0,1) == '#'){
 if(hash = 'pageA'){
     document.getElementById('tagLine').innerHTML = 'pageA';
     document.getElementById('aboutPara1').innerHTML = 'pageA';
-/*
     document.getElementById('aboutPara2').innerHTML = 'pageA';
     document.getElementById('morePara').innerHTML = 'pageA';
     document.getElementById('examplePara1').innerHTML = 'pageA';
@@ -206,8 +205,6 @@ if(hash = 'pageA'){
     document.getElementById('examplePara3').innerHTML = 'pageA';
     document.getElementById('examplePara4').innerHTML = 'pageA';
     document.getElementById('examplePara5').innerHTML = 'pageA';
-*/
-/*
     document.getElementById('bridgeItem1').innerHTML = 'pageA';
     document.getElementById('bridgeItem2').innerHTML = 'pageA';
     document.getElementById('bridgeItem3').innerHTML = 'pageA';
@@ -215,7 +212,6 @@ if(hash = 'pageA'){
     document.getElementById('bridgeItem5').innerHTML = 'pageA';
     document.getElementById('bridgeItem6').innerHTML = 'pageA';
     document.getElementById('bridgeItem7').innerHTML = 'pageA';
-*/
 }
 
 if(hash = 'pageB'){
