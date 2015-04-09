@@ -192,5 +192,12 @@ if(hash.substring(0,1) == '#'){
 }
 
 if(hash = 'pageA'){
-    document.getElementById('tagLine').innerHTML = 'content for the page displayed when the hash sais pageA';
+    document.getElementById('tagLine').innerHTML = 'content for the page displayed when the hash is pageA';
 }
+
+if(hash = 'pageB'){
+    document.getElementById('tagLine').innerHTML = 'content for the page displayed when the hash is pageB';
+}
+
+
+
