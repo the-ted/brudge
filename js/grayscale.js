@@ -178,7 +178,7 @@ function init() {
 }
 
 hash="";
-
+console.log(hash);
 
 // test all possible places hash could be on different browsers
 if(window.location.hash){
@@ -188,12 +188,14 @@ if(window.location.hash){
 } else if (location.hash){
     hash = location.hash;
 }
-
+console.log(hash);
 
 // some browsers start the hash with #, remove it for consistency
 if(hash.substring(0,1) == '#'){
     hash = hash.substring(1,hash.length);
 }
+
+console.log(hash);
 
 if(hash = 'pageA'){
     document.getElementById('tagLine').innerHTML = 'pageA';
@@ -217,6 +219,8 @@ if(hash = 'pageA'){
 if(hash = 'pageB'){
     document.getElementById('tagLine').innerHTML = 'content for the page displayed when the hash is pageB';
 }
+
+console.log(hash);
 
 copytext =     document.getElementById('examplePara1').innerHTML + "\n" +
     document.getElementById('examplePara2').innerHTML  + "\n" +
