@@ -197,7 +197,7 @@ if(hash.substring(0,1) == '#'){
 
 console.log(hash);
 
-if(hash = 'pageA'){
+if(hash == 'pageA'){
     document.getElementById('tagLine').innerHTML = 'pageA';
     document.getElementById('aboutPara1').innerHTML = 'pageA';
     document.getElementById('aboutPara2').innerHTML = 'pageA';
@@ -216,7 +216,7 @@ if(hash = 'pageA'){
     document.getElementById('bridgeItem7').innerHTML = 'pageA';
 }
 
-if(hash = 'pageB'){
+if(hash == 'pageB'){
     document.getElementById('tagLine').innerHTML = 'content for the page displayed when the hash is pageB';
 }
 
