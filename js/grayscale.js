@@ -218,6 +218,12 @@ if(hash = 'pageB'){
     document.getElementById('tagLine').innerHTML = 'content for the page displayed when the hash is pageB';
 }
 
+copytext =     document.getElementById('examplePara1').innerHTML + "\n" +
+    document.getElementById('examplePara2').innerHTML  + "\n" +
+    document.getElementById('examplePara3').innerHTML  + "\n" +
+    document.getElementById('examplePara4').innerHTML  + "\n" +
+    document.getElementById('examplePara5').innerHTML;
+
 $('#mainClick').on('click', function() {
     ga('send', 'event', 'mainClick', 'click', 'nav-buttons');
 });
@@ -257,13 +263,13 @@ $('#facebook').on('click', function() {
 });
 
 function copyToClipboard() {
-    window.prompt("Copy to clipboard: Ctrl+C, Enter", "HELLO THERE");
+    window.prompt("Copy to clipboard: Ctrl+C, Enter", copytext);
 }
 
 function replaceLove(){
-    document.getElementById('loveHate').innerHTML = "<img src='http://i.imgur.com/Si6ZHrQ.jpg'>";    
+    document.getElementById('loveHate').innerHTML = "Thank you!";    
 }
 
 function replaceHate(){
-    document.getElementById('loveHate').innerHTML = "<img src='http://i.imgur.com/Si6ZHrQ.jpg'>";    
+    document.getElementById('loveHate').innerHTML = "";    
 }
