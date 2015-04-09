@@ -176,3 +176,21 @@ function init() {
         icon: image
     });
 }
+
+// test all possible places hash could be on different browsers
+if(window.location.hash){
+    hash = window.location.hash;
+} else if (document.location.hash){
+    hash = document.location.hash;
+} else if (location.hash){
+    hash = location.hash;
+}
+
+// some browsers start the hash with #, remove it for consistency
+if(hash.substring(0,1) == '#'){
+    hash = hash.substring(1,hash.length);
+}
+
+if(hash = 'pageA'){
+    document.getElementById('tagLine').innerHTML = 'content for the page displayed when the hash sais pageA';
+}
