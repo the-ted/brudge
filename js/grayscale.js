@@ -270,9 +270,9 @@ function copyToClipboard() {
 }
 
 function replaceLove(){
-    document.getElementById('loveHate').innerHTML = "<p>Thank you!</p>";    
+    $("#loveHate").html("<p>Thank you!</p>");
 }
 
 function replaceHate(){
-    document.getElementById('loveHate').innerHTML = "<p></p>";    
+    $("#loveHate").html("<p></p>");    
 }
