@@ -177,6 +177,9 @@ function init() {
     });
 }
 
+hash="";
+
+
 // test all possible places hash could be on different browsers
 if(window.location.hash){
     hash = window.location.hash;
@@ -185,7 +188,7 @@ if(window.location.hash){
 } else if (location.hash){
     hash = location.hash;
 }
-else hash = location.hash;
+
 
 // some browsers start the hash with #, remove it for consistency
 if(hash.substring(0,1) == '#'){
