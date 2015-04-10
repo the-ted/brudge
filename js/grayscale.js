@@ -212,8 +212,8 @@ if(hash == 'pageA'){
 }
 
 if(hash == 'pageB'){
-    document.getElementById('tagLine').innerHTML = "The smartest game";
-    document.getElementById('aboutPara1').innerHTML = "Revealed Preference. Hand valuation. Law of total tricks. Contract bridge is the ultimate mental game.";
+    document.getElementById('tagLine').innerHTML = "The Smartest Game";
+    document.getElementById('aboutPara1').innerHTML = "Revealed preference. Hand valuation. Law of total tricks. Contract bridge is the ultimate mental game.";
     document.getElementById('aboutPara2').innerHTML = "Option traders, computer programmers, and mathematicians love bridge. Brudge is a new app where you learn bridge by playing.";
     document.getElementById('morePara').innerHTML = "Bridge is a four-person game, so you need three other people to play.";
 
