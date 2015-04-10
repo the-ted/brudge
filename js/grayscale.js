@@ -198,10 +198,12 @@ if(hash.substring(0,1) == '#'){
 console.log(hash);
 
 if(hash == 'pageA'){
-    document.getElementById('tagLine').innerHTML = 'Get older faster';
-    document.getElementById('aboutPara1').innerHTML = 'Literally hundreds of grannies, math nerds, and education indians worldwide enjoy a nice game of bridge. But is it any fun?';
+    document.getElementById('tagLine').innerHTML = 'Premature Aging Through Recreation';
+    document.getElementById('aboutPara1').innerHTML = 'Literally hundreds of grannies, math nerds, and business magnates worldwide enjoy a nice game of bridge. But is it any fun?';
     document.getElementById('aboutPara2').innerHTML = 'Brudge was designed to help you figure this out. It\'s a new app that teaches you and your friends how to play. It deals out hands so you can learn while playing.';
-    document.getElementById('morePara').innerHTML = 'The hardest thing about bridge is that all the fun players are dying off. If you want to learn how to play, send an email to your friends, and CC me@brudge.com. If three of them forward on the message, you\'ll get a free download when the app hits the store.';
+    document.getElementById('morePara').innerHTML = 'The hardest thing about bridge is that all the fun players are dying off.';
+
+    document.getElementById('morePara2').innerHTML = 'If you want to learn how to play, send an email to your friends, and CC me@brudge.com. If three of them forward on the message, you\'ll get a free download when the app hits the store.';
     document.getElementById('examplePara1').innerHTML = 'Today, while I was drinking some earl grey tea and eating werther\'s originals, I was thinking it might be fun to learn how to play contract bridge (the card game).';
     document.getElementById('examplePara2').innerHTML = 'So, I rolled up the sleeves of my cardigan, put in my dentures, and logged on to my dusty Windows 95 computer. Somebody is making this app to teach bridge to total noobs:';
     document.getElementById('examplePara3').innerHTML = 'Bridge is a four-person game ideal for lazy Sundays. If I get three other people to RSVP to my bridge game, I get a free download of the app when it drops (this works for you, too).';
@@ -212,9 +214,12 @@ if(hash == 'pageA'){
 if(hash == 'pageB'){
     document.getElementById('tagLine').innerHTML = "The smartest game";
     document.getElementById('aboutPara1').innerHTML = "Revealed Preference. Hand valuation. Law of total tricks. Contract bridge is the ultimate mental game.";
-    document.getElementById('aboutPara2').innerHTML = "Option traders, computer programmers, and mathematicians love bridge. But it's something that your grandmother can play. Brudge is a new app where you learn bridge by playing.";
-    document.getElementById('morePara').innerHTML = "Bridge is a two-versus-two game, and you need three other people to play. If you want to learn how to play, send an email invitation to your friends, and CC me@brudge.com. If three of them forward on the message, you'll get a free download when the app hits the store.";
-    document.getElementById('examplePara1').innerHTML = "I was thinking it might be fun to start to get into contract bridge (the card game).";
+    document.getElementById('aboutPara2').innerHTML = "Option traders, computer programmers, and mathematicians love bridge. Brudge is a new app where you learn bridge by playing.";
+    document.getElementById('morePara').innerHTML = "Bridge is a four-person game, so you need three other people to play.";
+
+    document.getElementById('morePara2').innerHTML = "If you want to learn how to play, send an email invitation to your friends, and CC me@brudge.com. If three of them forward on the message, you'll get a free download when the app hits the store.";
+
+    document.getElementById('examplePara1').innerHTML = "I was thinking it might be fun to try playing contract bridge (the card game).";
     document.getElementById('examplePara2').innerHTML = "If you're interested, there's a new app that's coming out to teach the game by playing it:";
     document.getElementById('examplePara3').innerHTML = "If I get three other people to RSVP, I get a free download of the app when it launches (this works for you).";
     document.getElementById('examplePara4').innerHTML = "To RSVP, forward or reply to this email and CC me@brudge.com";
