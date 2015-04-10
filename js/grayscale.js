@@ -246,6 +246,10 @@ $('#exampleClick').on('click', function() {
     ga('send', 'event', 'moreClick', 'click', 'nav-buttons');
 });
 
+$('#appClick').on('click', function() {
+    ga('send', 'event', 'appClick', 'click', 'nav-buttons');
+});
+
 $('#copyToClipboard').on('click', function() {
     ga('send', 'event', 'copyToClipboard', 'click', 'nav-buttons');
 });
@@ -265,6 +269,7 @@ $('#twitter').on('click', function() {
 $('#facebook').on('click', function() {
     ga('send', 'event', 'facebook', 'click', 'nav-buttons');
 });
+
 
 function copyToClipboard() {
     window.prompt("Copy to clipboard: Ctrl+C, Enter", copytext);
