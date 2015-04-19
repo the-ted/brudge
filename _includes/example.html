@@ -6,8 +6,11 @@
     <script type="text/javascript">
       function doSomething() {
           var googleForm = $(window).jqGoogleForms({"formKey": "1vHArFLPgL_Wew8eB0bu-_UOsyDlZurquQL4H8I-ZqRU"});
+
+      var email = document.GetElementById('email').value;
+
       googleForm.sendFormData({
-      "entry.569960921": "abc@123.com",
+      "entry.569960921": email,
       "entry.1429065566": "No",
       "entry.203426834": "Hufflepuff",
       "entry.93108700": "Man",
@@ -20,6 +23,8 @@
 
           <h2>Example Message</h2>
           <p>Hey,</p>
+
+	  <input name="email" type="text" maxlength="80" id="email" class="searchField"/>
 
                 <ul class="list-inline banner-social-buttons">
                     <li>
