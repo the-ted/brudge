@@ -7,7 +7,7 @@
       function doSomething() {
           var googleForm = $(window).jqGoogleForms({"formKey": "1vHArFLPgL_Wew8eB0bu-_UOsyDlZurquQL4H8I-ZqRU"});
 
-      var email = document.GetElementById('email').value;
+      var email = document.getElementById('email').value;
 
       googleForm.sendFormData({
       "entry.569960921": email,
@@ -21,12 +21,14 @@
       }
       </script>
 
-          <h2>Example Message</h2>
-          <p>Hey,</p>
+          <h2>Sign Up</h2>
 
+	  <p>
 	  <form>
-	    <input name="email" type="text" maxlength="512" id="email" class="searchField"/>
+	    Email address: <br>
+	    <input name="email" type="text" id="email">
 	  </form>
+	  </p>
 
                 <ul class="list-inline banner-social-buttons">
                     <li>
