@@ -3,46 +3,32 @@
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
 
-    <p id="something">...</p>
-
     <script type="text/javascript">
-      document.getElementById("something").innerHTML = "Changed...";
-
-      var googleForm = $(window).jqGoogleForms({"formKey": "1vHArFLPgL_Wew8eB0bu-_UOsyDlZurquQL4H8I-ZqRU"});
-
+      function doSomething() {
+          var googleForm = $(window).jqGoogleForms({"formKey": "1vHArFLPgL_Wew8eB0bu-_UOsyDlZurquQL4H8I-ZqRU"});
       googleForm.sendFormData({
-      "entry.569960921": "data",
-      "entry.1429065566": "Yes",
+      "entry.569960921": "abc@123.com",
+      "entry.1429065566": "No",
       "entry.203426834": "Hufflepuff",
-      "entry.93108700": "Woman",
+      "entry.93108700": "Man",
       "entry.559728966": "Young gunz"
-      });
+      });      
+         alert('Form submitted!');
+      return false;
+      }
       </script>
 
           <h2>Example Message</h2>
           <p>Hey,</p>
 
-	  <p id="examplePara1">I was thinking it might be fun to get a group together and learn how to play contract bridge.</p>
-
-	  <p id="examplePara2">There's a new app that's about to be launched to teach people how to play:</p>
-
-	  <p><a href=www.brudge.com>www.brudge.com</a></p>
-
-	  <p id="examplePara3">Bridge needs four people - if I get three other people to RSVP, I get a free download of the app (this works for you, too).</p>
-
-	  <p id="examplePara4">To RSVP, forward or reply to this email and CC me@brudge.com</p>
-
-	  <p id="examplePara5">Thanks!</p>
-
-
                 <ul class="list-inline banner-social-buttons">
                     <li>
                       <a class="btn btn-default btn-lg"
 			 id="copyToClipboard"
-			 onclick="copyToClipboard()"
+			 onclick="doSomething()"
 			 >
 			<i class="fa fa-copy fa-fw"></i>
-			<span class="network-name">Copy to Clipboard</span></a>
+			<span class="network-name">Submit Form</span></a>
                     </li>
 
                 </ul>

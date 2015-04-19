@@ -204,11 +204,6 @@ if(hash == 'pageA'){
     document.getElementById('morePara').innerHTML = 'The hardest thing about bridge is finding players under 60.';
 
     document.getElementById('morePara2').innerHTML = 'If you want to learn how to play, send an email to your friends, and CC me@brudge.com. If three of them forward on or reply-all to the message, you\'ll get a free download when the app hits the store.';
-    document.getElementById('examplePara1').innerHTML = 'Today, while I was drinking some earl grey tea and eating werther\'s originals, I was thinking it might be fun to learn how to play contract bridge (the card game).';
-    document.getElementById('examplePara2').innerHTML = 'So, I rolled up the sleeves of my cardigan, put in my dentures, and logged on to my dusty Windows 95 computer. Somebody is making this app to teach bridge to total noobs:';
-    document.getElementById('examplePara3').innerHTML = 'Bridge is a four-person game ideal for lazy Sundays. If I get three other people to RSVP to my bridge game, I get a free download of the app when it drops (this works for you, too).';
-    document.getElementById('examplePara4').innerHTML = 'To RSVP, forward or reply to this email and CC me@brudge.com';
-    document.getElementById('examplePara5').innerHTML = 'Cheerio';
 }
 
 if(hash == 'pageB'){
@@ -219,21 +214,9 @@ if(hash == 'pageB'){
 
     document.getElementById('morePara2').innerHTML = "If you want to learn how to play, send an email invitation to your friends, and CC me@brudge.com. If three of them forward on or reply-all to the message, you'll get a free download when the app hits the store.";
 
-    document.getElementById('examplePara1').innerHTML = "I was thinking it might be fun to try playing contract bridge (the card game).";
-    document.getElementById('examplePara2').innerHTML = "If you're interested, there's a new app that's coming out to teach the game by playing it:";
-    document.getElementById('examplePara3').innerHTML = "If I get three other people to RSVP, I get a free download of the app when it launches (this works for you).";
-    document.getElementById('examplePara4').innerHTML = "To RSVP, forward or reply to this email and CC me@brudge.com";
-    document.getElementById('examplePara5').innerHTML = "Thanks";
 }
 
 console.log(hash);
-
-copytext =
-    document.getElementById('examplePara1').innerHTML + "\n\n" +
-    document.getElementById('examplePara2').innerHTML  + "\n\n" +
-    document.getElementById('examplePara3').innerHTML  + "\n\n" +
-    document.getElementById('examplePara4').innerHTML  + "\n\n\n" +
-    document.getElementById('examplePara5').innerHTML;
 
 $('#mainClick').on('click', function() {
     ga('send', 'event', 'mainClick', 'click', 'nav-buttons');
@@ -274,11 +257,6 @@ $('#twitter').on('click', function() {
 $('#facebook').on('click', function() {
     ga('send', 'event', 'facebook', 'click', 'nav-buttons');
 });
-
-
-function copyToClipboard() {
-    window.prompt("Copy to clipboard: Ctrl+C, Enter", copytext);
-}
 
 function replaceLove(){
     $("#loveHate").html("<p>Thank you!</p>");
